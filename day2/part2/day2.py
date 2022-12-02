@@ -17,7 +17,6 @@ f = open("input.txt","r")
 total_score = 0
 for line in f.readlines():
 	moves = line.split()
-	print(moves)
 	if len(moves) != 2:
 		print("Something went wrong with the number of moves.",file=sys.stderr)
 	else:
